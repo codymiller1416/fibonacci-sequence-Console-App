@@ -1,0 +1,1 @@
+The fibonacci sequence console app is a simple appliciation that functions by processing integers into an algorithm to calculate the first 25 numbers within the fibonacci sequence. The program is written in C# using Visual Studio
