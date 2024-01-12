@@ -1,0 +1,28 @@
+using System;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        public static int Fibonacci(int n)
+        {
+            int x = 0;
+            int y = 1;
+            for (int i = 0; i < n; i++)
+            {
+                int temp = x;
+                x = y;
+                y = temp + y;
+            }
+            return x;
+        }     
+        static void Main()
+        {
+            //compute 25 fibonnacci numbers in a sequence
+            for (int i = 0; i < 25; i++)
+            {
+                Console.WriteLine(Fibonacci(i));
+            }
+        }
+    }
+}
